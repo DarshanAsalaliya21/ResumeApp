@@ -64,3 +64,9 @@ void resume2PDF(Model m1) async {
   print("============${f1.path}");
   f1.writeAsBytes(await pdf.save());
 }
+
+
+void getData()
+{
+  print("Testing          ==============");
+}
